@@ -19,6 +19,14 @@ console.log("Array depois da alteração:", array);
 
 //3)Crie um array vazio chamado meuArray e adicione 3 números inteiros de sua escolha utilizando o método push(). Imprima no console os itens presentes no array para verificar se os números foram adicionados. Em seguida, substitua o primeiro elemento do array (índice 0) pelo dobro do seu valor atual. Imprima no console o array atualizado para verificar a mudança.
 
+const meuArray = [];
+meuArray.push(4);
+meuArray.push(8);
+meuArray.push(15);
+console.log("Array após adição dos números:", meuArray);
+meuArray[0] = meuArray[0] * 2;
+console.log("Array após dobrar o primeiro elemento:", meuArray);
+
 //4)Desenvolva um programa em Node.js que crie um array vazio e atribua valores a ele utilizando o método push(). Adicione três números inteiros ao array e, em seguida, exiba o array resultante.
 
 //5)Desenvolva um programa em Node.js que simule uma clínica veterinária. Crie um array vazio chamado clinica que representará a fila de animais na clínica. Em um primeiro momento, simule a chegada de três animais diferentes e exiba a lista de animais no console. Após a exibição, remova os animais da lista um por vez e, por fim, exiba no console o estado final da lista.
