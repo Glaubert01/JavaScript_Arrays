@@ -12,6 +12,11 @@ console.log("Comprimento do array esparso:", sparseArray.length);
 
 //2)Crie um programa em Node.js que inicie com um array cinco elementos e atribua um novo valor para a primeira posição (índice 0) desse array. Em seguida, exiba o array antes e depois da alteração.
 
+const array = [1, 2, 3, 4, 5];
+console.log("Array antes da alteração:", array);
+array[0] = 10;
+console.log("Array depois da alteração:", array);
+
 //3)Crie um array vazio chamado meuArray e adicione 3 números inteiros de sua escolha utilizando o método push(). Imprima no console os itens presentes no array para verificar se os números foram adicionados. Em seguida, substitua o primeiro elemento do array (índice 0) pelo dobro do seu valor atual. Imprima no console o array atualizado para verificar a mudança.
 
 //4)Desenvolva um programa em Node.js que crie um array vazio e atribua valores a ele utilizando o método push(). Adicione três números inteiros ao array e, em seguida, exiba o array resultante.
